@@ -1,0 +1,159 @@
+/* * {
+  border: 2px solid black;
+} */
+
+nav {
+  display: flex;
+  border: 1px SOLID green;
+  justify-content: flex-start;
+}
+
+.links {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  justify-content: flex-start;
+  margin-right: 150px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links ul li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: 25px;
+  padding: 10px 20px;
+}
+
+.links ul li:hover {
+  border-bottom: 2px solid green;
+  border-radius: 7px;
+  color: green;
+  cursor: pointer;
+}
+
+/* Section CSSS */
+
+.section__two {
+  display: flex;
+  padding: 50px;
+}
+
+/* .paragraph__container {
+  background-color: seagreen;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.7);
+} */
+
+.social__links {
+  display: flex;
+  padding-top: 30px;
+}
+
+.social__links li {
+  list-style: none;
+  padding-right: 20px;
+}
+
+.social__links li a {
+  text-decoration: none;
+}
+
+.fb a {
+  background-color: darkblue;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 7px;
+}
+
+.tw a {
+  background-color: skyblue;
+  color: whitesmoke;
+  padding: 7px 15px;
+  border-radius: 7px;
+}
+
+.gh a {
+  background-color: black;
+  color: whitesmoke;
+  padding: 7px 15px;
+  border-radius: 7px;
+}
+
+.yt a {
+  background-color: red;
+  color: whitesmoke;
+  padding: 7px 15px;
+  border-radius: 7px;
+}
+
+.left__bio {
+  display: flex;
+  flex: 1;
+}
+
+.right__bio {
+  /* flex: 1; */
+}
+
+.my__details {
+  margin: auto;
+  padding-right: 250px;
+}
+
+.my__details h1 {
+  font-size: 50px;
+}
+
+.my__details h3 {
+  font-size: 30px;
+}
+
+.paragraph__container p {
+  font-size: 20px;
+}
+
+.my__image {
+  width: 450px;
+  height: 450px;
+}
+
+/* Third Section CSS */
+
+.section__two {
+  display: flex;
+}
+
+.card__container {
+  /* border: 1px solid green; */
+  margin: 10px 25px;
+  padding: 20px;
+  box-shadow: 10px 10px 15px grey;
+  border-radius: 10px;
+}
+.card__image {
+  width: 400px;
+  height: 350px;
+}
+
+.btn {
+  border: none;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 7px;
+  box-shadow: 5px 5px 10px grey;
+}

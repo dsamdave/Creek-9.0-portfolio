@@ -1,0 +1,97 @@
+* {
+  font-family: poppins;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex: 2;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 80px;
+  color: #828282;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav ul li:hover {
+  color: #4267b2;
+  cursor: pointer;
+}
+
+.btn-container {
+  flex: 1;
+  margin-left: 150px;
+}
+
+.login-btn {
+  outline: 0;
+  border: none;
+  background-color: transparent;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.login-btn:hover {
+  color: #4267b2;
+  cursor: pointer;
+}
+
+.get-started-btn {
+  background-color: #f94d53;
+  outline: 0;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.get-started-btn:hover {
+  background-color: #4267b2;
+  cursor: pointer;
+}
+
+.header-container {
+  display: flex;
+  margin: 100px 150px;
+}
+
+.left-container {
+  padding: 50px;
+}
+
+.right-container {
+}
+
+.right-container img {
+  width: 500px;
+}
+
+.blue-text {
+  color: #4267b2;
+}
+
+.black-text {
+  color: #1a2631;
+}
+
+.red-text {
+  color: #f94d53;
+}
+
+#btn {
+  background-color: #f94d53;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  padding: 5px 25px;
+  border-radius: 5px;
+}
